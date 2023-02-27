@@ -60,4 +60,4 @@ default_datetime = get_current_date()
 st.write('Current datetime is ' + default_datetime)
 date = st.text_input('Datetime to timestamp, input a date(format %Y/%m/%d %H:%M:%S) ')
 if date != '':
-    st.write('The date is ', str(get_timestamp(date)))
+    st.write('The timestamp is ', str(get_timestamp(date)))
